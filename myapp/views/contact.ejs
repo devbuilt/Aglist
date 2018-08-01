@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title><%= title %></title>
+    <% include ../partials/header %>
+    <% include ../partials/nav %>
+  </head>
+  <body class="bg-light">
+    <br>
+    <h1 class="text-center"><%= titlecontact %></h1>
+    <br>
+    <br>
+    <p class="text-center">If you have any questions or comments feel free to Contact Us!</p>
+    <br>
+
+    <div class="container">
+      <form autocomplete="off" form action="/sign-up" method="POST" id="form-group">
+      <div class="form-row" class="needs-validation" novalidate>
+        <div class="form-group col-md-6">
+          <label for="inputBuinessName" for="validationCustom01">Name</label>
+          <input type="text" class="form-control" id="" id="" placeholder="Name of contact">
+        </div>
+        <div class="valid-feedback">
+            Looks good!
+          </div>
+        <div class="form-group col-md-6">
+          <label for="inputBusinessContact">Business Name</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Business Name">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAddress2">Phone</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Phone Number">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputAddress2">Email</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Email Address">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputCity">Comments</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Comments? Questions?">
+        </div>
+      </div>
+    <br>
+    <br>
+      <br>
+      <button type="submit" class="btn btn-success btn-lg btn-block">Send</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <% include ../partials/footer %>
+    <% include ../partials/js %>
+  </body>
+</html>
